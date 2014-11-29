@@ -64,8 +64,8 @@
 
 - (void)configureViews {
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    [self.collectionView setBackgroundColor:[UIColor grayColor]];
 
+    [self.collectionView setBackgroundColor:[UIColor grayColor]];
     [self.collectionView setScrollEnabled:YES];
 }
 
@@ -77,7 +77,6 @@
 }
 
 - (void)constrainViews {
-    NSInteger rowsInSection = [self.dataSource collectionView:self.collectionView numberOfItemsInSection:0];
     NSDictionary *metrics = @{
         @"collectionview_height": @(35)
     };

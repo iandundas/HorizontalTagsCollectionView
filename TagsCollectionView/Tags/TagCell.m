@@ -24,16 +24,6 @@
     return self;
 }
 
-- (void)prepareForReuse {
-//    [self.textField setDelegate:nil];
-    [super prepareForReuse];
-}
-
-- (void)setSelected:(BOOL)selected {
-    [super setSelected:selected];
-//    [self.imageView setAlpha:selected?.6:1];
-}
-
 -(NSDictionary*)views{
     return NSDictionaryOfVariableBindings(
         _label
