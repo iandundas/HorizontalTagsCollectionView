@@ -1,0 +1,12 @@
+//
+//  TagsCollectionView-Prefix.pch
+//  TagsCollectionView
+//
+//  Created by Ian Dundas on 29/11/2014.
+//  Copyright (c) 2014 Ian Dundas. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif

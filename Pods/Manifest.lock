@@ -1,0 +1,13 @@
+PODS:
+  - CompactConstraint (0.1.0)
+  - ObjectiveSugar (1.1.0)
+
+DEPENDENCIES:
+  - CompactConstraint
+  - ObjectiveSugar
+
+SPEC CHECKSUMS:
+  CompactConstraint: 28050cd1f9c63c67412a0f3d7f758cb0218de192
+  ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
+
+COCOAPODS: 0.35.0
